@@ -10,6 +10,6 @@ async function bootstrap() {
   );
   const port = process.env.PORT ?? 3002;
   await app.listen(port);
-  console.log(`booking-service listening on ${port}`);
+  console.log(`[booking-service] listening on port ${port}`);
 }
 bootstrap();
